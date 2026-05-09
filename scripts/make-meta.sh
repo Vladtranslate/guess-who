@@ -17,7 +17,7 @@ if [ ! -z $TAURI ]; then
   mkdir build
   cp -r public build/
 
-  CHARSET_DIR=$ROOT_DIR/tbuild/public/character-sets
+  CHARSET_DIR=$ROOT_DIR/build/public/character-sets
   cd $CHARSET_DIR
 
   for DIRNAME in *; do
